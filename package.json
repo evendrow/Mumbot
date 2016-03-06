@@ -1,0 +1,12 @@
+{
+  "name": "Mumbot",
+  "description": "A simple bot for Mumble chat software",
+  "version": "1.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+  	"mumble": "~0.1.4",
+    "lame": "~1.2.2"
+  }
+}
