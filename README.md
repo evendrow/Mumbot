@@ -17,7 +17,8 @@ Cert:
 openssl pkcs12 -in MumbleCertificate.p12 -out crt.pem -clcerts -nokeys  
 ```
 
-In the beggining of **app.js**, change the options to point to your key and certificate files. Also, change the **serverURL** and **username** variables to the ones associated with your certificate.
+In the beggining of **app.js**, change the options to point to your key and certificate files.  
+Also, change the **serverURL** and **username** variables to the ones associated with your certificate.
 
 Start the server with:  
 ```
